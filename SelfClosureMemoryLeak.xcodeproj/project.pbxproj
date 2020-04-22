@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9661A5F2245047A900331E3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9661A5F1245047A900331E3D /* AppDelegate.swift */; };
+		9661A5F4245047A900331E3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9661A5F3245047A900331E3D /* SceneDelegate.swift */; };
+		9661A5F6245047A900331E3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9661A5F5245047A900331E3D /* ViewController.swift */; };
+		9661A5F9245047A900331E3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9661A5F7245047A900331E3D /* Main.storyboard */; };
+		9661A5FB245047AD00331E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9661A5FA245047AD00331E3D /* Assets.xcassets */; };
+		9661A5FE245047AD00331E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9661A5FC245047AD00331E3D /* LaunchScreen.storyboard */; };
+		9661A609245047AD00331E3D /* SelfClosureMemoryLeakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9661A608245047AD00331E3D /* SelfClosureMemoryLeakTests.swift */; };
+		9661A614245047AD00331E3D /* SelfClosureMemoryLeakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9661A613245047AD00331E3D /* SelfClosureMemoryLeakUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9661A605245047AD00331E3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9661A5E6245047A900331E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9661A5ED245047A900331E3D;
+			remoteInfo = SelfClosureMemoryLeak;
+		};
+		9661A610245047AD00331E3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9661A5E6245047A900331E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9661A5ED245047A900331E3D;
+			remoteInfo = SelfClosureMemoryLeak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9661A5EE245047A900331E3D /* SelfClosureMemoryLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfClosureMemoryLeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9661A5F1245047A900331E3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9661A5F3245047A900331E3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9661A5F5245047A900331E3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9661A5F8245047A900331E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9661A5FA245047AD00331E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9661A5FD245047AD00331E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9661A5FF245047AD00331E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9661A604245047AD00331E3D /* SelfClosureMemoryLeakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfClosureMemoryLeakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9661A608245047AD00331E3D /* SelfClosureMemoryLeakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfClosureMemoryLeakTests.swift; sourceTree = "<group>"; };
+		9661A60A245047AD00331E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9661A60F245047AD00331E3D /* SelfClosureMemoryLeakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfClosureMemoryLeakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9661A613245047AD00331E3D /* SelfClosureMemoryLeakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfClosureMemoryLeakUITests.swift; sourceTree = "<group>"; };
+		9661A615245047AD00331E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9661A5EB245047A900331E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9661A601245047AD00331E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9661A60C245047AD00331E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9661A5E5245047A900331E3D = {
+			isa = PBXGroup;
+			children = (
+				9661A5F0245047A900331E3D /* SelfClosureMemoryLeak */,
+				9661A607245047AD00331E3D /* SelfClosureMemoryLeakTests */,
+				9661A612245047AD00331E3D /* SelfClosureMemoryLeakUITests */,
+				9661A5EF245047A900331E3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9661A5EF245047A900331E3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9661A5EE245047A900331E3D /* SelfClosureMemoryLeak.app */,
+				9661A604245047AD00331E3D /* SelfClosureMemoryLeakTests.xctest */,
+				9661A60F245047AD00331E3D /* SelfClosureMemoryLeakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9661A5F0245047A900331E3D /* SelfClosureMemoryLeak */ = {
+			isa = PBXGroup;
+			children = (
+				9661A5F1245047A900331E3D /* AppDelegate.swift */,
+				9661A5F3245047A900331E3D /* SceneDelegate.swift */,
+				9661A5F5245047A900331E3D /* ViewController.swift */,
+				9661A5F7245047A900331E3D /* Main.storyboard */,
+				9661A5FA245047AD00331E3D /* Assets.xcassets */,
+				9661A5FC245047AD00331E3D /* LaunchScreen.storyboard */,
+				9661A5FF245047AD00331E3D /* Info.plist */,
+			);
+			path = SelfClosureMemoryLeak;
+			sourceTree = "<group>";
+		};
+		9661A607245047AD00331E3D /* SelfClosureMemoryLeakTests */ = {
+			isa = PBXGroup;
+			children = (
+				9661A608245047AD00331E3D /* SelfClosureMemoryLeakTests.swift */,
+				9661A60A245047AD00331E3D /* Info.plist */,
+			);
+			path = SelfClosureMemoryLeakTests;
+			sourceTree = "<group>";
+		};
+		9661A612245047AD00331E3D /* SelfClosureMemoryLeakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9661A613245047AD00331E3D /* SelfClosureMemoryLeakUITests.swift */,
+				9661A615245047AD00331E3D /* Info.plist */,
+			);
+			path = SelfClosureMemoryLeakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9661A5ED245047A900331E3D /* SelfClosureMemoryLeak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9661A618245047AD00331E3D /* Build configuration list for PBXNativeTarget "SelfClosureMemoryLeak" */;
+			buildPhases = (
+				9661A5EA245047A900331E3D /* Sources */,
+				9661A5EB245047A900331E3D /* Frameworks */,
+				9661A5EC245047A900331E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfClosureMemoryLeak;
+			productName = SelfClosureMemoryLeak;
+			productReference = 9661A5EE245047A900331E3D /* SelfClosureMemoryLeak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9661A603245047AD00331E3D /* SelfClosureMemoryLeakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9661A61B245047AD00331E3D /* Build configuration list for PBXNativeTarget "SelfClosureMemoryLeakTests" */;
+			buildPhases = (
+				9661A600245047AD00331E3D /* Sources */,
+				9661A601245047AD00331E3D /* Frameworks */,
+				9661A602245047AD00331E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9661A606245047AD00331E3D /* PBXTargetDependency */,
+			);
+			name = SelfClosureMemoryLeakTests;
+			productName = SelfClosureMemoryLeakTests;
+			productReference = 9661A604245047AD00331E3D /* SelfClosureMemoryLeakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9661A60E245047AD00331E3D /* SelfClosureMemoryLeakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9661A61E245047AD00331E3D /* Build configuration list for PBXNativeTarget "SelfClosureMemoryLeakUITests" */;
+			buildPhases = (
+				9661A60B245047AD00331E3D /* Sources */,
+				9661A60C245047AD00331E3D /* Frameworks */,
+				9661A60D245047AD00331E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9661A611245047AD00331E3D /* PBXTargetDependency */,
+			);
+			name = SelfClosureMemoryLeakUITests;
+			productName = SelfClosureMemoryLeakUITests;
+			productReference = 9661A60F245047AD00331E3D /* SelfClosureMemoryLeakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9661A5E6245047A900331E3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Steve JobsOne";
+				TargetAttributes = {
+					9661A5ED245047A900331E3D = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					9661A603245047AD00331E3D = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 9661A5ED245047A900331E3D;
+					};
+					9661A60E245047AD00331E3D = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 9661A5ED245047A900331E3D;
+					};
+				};
+			};
+			buildConfigurationList = 9661A5E9245047A900331E3D /* Build configuration list for PBXProject "SelfClosureMemoryLeak" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9661A5E5245047A900331E3D;
+			productRefGroup = 9661A5EF245047A900331E3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9661A5ED245047A900331E3D /* SelfClosureMemoryLeak */,
+				9661A603245047AD00331E3D /* SelfClosureMemoryLeakTests */,
+				9661A60E245047AD00331E3D /* SelfClosureMemoryLeakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9661A5EC245047A900331E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9661A5FE245047AD00331E3D /* LaunchScreen.storyboard in Resources */,
+				9661A5FB245047AD00331E3D /* Assets.xcassets in Resources */,
+				9661A5F9245047A900331E3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9661A602245047AD00331E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9661A60D245047AD00331E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9661A5EA245047A900331E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9661A5F6245047A900331E3D /* ViewController.swift in Sources */,
+				9661A5F2245047A900331E3D /* AppDelegate.swift in Sources */,
+				9661A5F4245047A900331E3D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9661A600245047AD00331E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9661A609245047AD00331E3D /* SelfClosureMemoryLeakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9661A60B245047AD00331E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9661A614245047AD00331E3D /* SelfClosureMemoryLeakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9661A606245047AD00331E3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9661A5ED245047A900331E3D /* SelfClosureMemoryLeak */;
+			targetProxy = 9661A605245047AD00331E3D /* PBXContainerItemProxy */;
+		};
+		9661A611245047AD00331E3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9661A5ED245047A900331E3D /* SelfClosureMemoryLeak */;
+			targetProxy = 9661A610245047AD00331E3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9661A5F7245047A900331E3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9661A5F8245047A900331E3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9661A5FC245047AD00331E3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9661A5FD245047AD00331E3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9661A616245047AD00331E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9661A617245047AD00331E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9661A619245047AD00331E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J27N355HBH;
+				INFOPLIST_FILE = SelfClosureMemoryLeak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobioapp.SelfClosureMemoryLeak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9661A61A245047AD00331E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J27N355HBH;
+				INFOPLIST_FILE = SelfClosureMemoryLeak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobioapp.SelfClosureMemoryLeak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9661A61C245047AD00331E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J27N355HBH;
+				INFOPLIST_FILE = SelfClosureMemoryLeakTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobioapp.SelfClosureMemoryLeakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfClosureMemoryLeak.app/SelfClosureMemoryLeak";
+			};
+			name = Debug;
+		};
+		9661A61D245047AD00331E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J27N355HBH;
+				INFOPLIST_FILE = SelfClosureMemoryLeakTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobioapp.SelfClosureMemoryLeakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfClosureMemoryLeak.app/SelfClosureMemoryLeak";
+			};
+			name = Release;
+		};
+		9661A61F245047AD00331E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J27N355HBH;
+				INFOPLIST_FILE = SelfClosureMemoryLeakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobioapp.SelfClosureMemoryLeakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SelfClosureMemoryLeak;
+			};
+			name = Debug;
+		};
+		9661A620245047AD00331E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J27N355HBH;
+				INFOPLIST_FILE = SelfClosureMemoryLeakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobioapp.SelfClosureMemoryLeakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SelfClosureMemoryLeak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9661A5E9245047A900331E3D /* Build configuration list for PBXProject "SelfClosureMemoryLeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9661A616245047AD00331E3D /* Debug */,
+				9661A617245047AD00331E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9661A618245047AD00331E3D /* Build configuration list for PBXNativeTarget "SelfClosureMemoryLeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9661A619245047AD00331E3D /* Debug */,
+				9661A61A245047AD00331E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9661A61B245047AD00331E3D /* Build configuration list for PBXNativeTarget "SelfClosureMemoryLeakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9661A61C245047AD00331E3D /* Debug */,
+				9661A61D245047AD00331E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9661A61E245047AD00331E3D /* Build configuration list for PBXNativeTarget "SelfClosureMemoryLeakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9661A61F245047AD00331E3D /* Debug */,
+				9661A620245047AD00331E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9661A5E6245047A900331E3D /* Project object */;
+}
