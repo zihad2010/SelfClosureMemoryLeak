@@ -12,6 +12,7 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    //https://www.youtube.com/watch?v=7BpLU9uhLCg
     let tutorialLink = "https://medium.com/@hari.keerthipati/self-closure-memory-leak-fixes-using-weak-and-unowned-658e2cebec2"
     
     @IBOutlet weak var infoLabel: UILabel!
