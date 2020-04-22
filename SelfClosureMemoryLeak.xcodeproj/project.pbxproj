@@ -15,6 +15,7 @@
 		9661A5FE245047AD00331E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9661A5FC245047AD00331E3D /* LaunchScreen.storyboard */; };
 		9661A609245047AD00331E3D /* SelfClosureMemoryLeakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9661A608245047AD00331E3D /* SelfClosureMemoryLeakTests.swift */; };
 		9661A614245047AD00331E3D /* SelfClosureMemoryLeakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9661A613245047AD00331E3D /* SelfClosureMemoryLeakUITests.swift */; };
+		9661A6232450495500331E3D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9661A6222450495500331E3D /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9661A60F245047AD00331E3D /* SelfClosureMemoryLeakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfClosureMemoryLeakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9661A613245047AD00331E3D /* SelfClosureMemoryLeakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfClosureMemoryLeakUITests.swift; sourceTree = "<group>"; };
 		9661A615245047AD00331E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9661A6222450495500331E3D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 		9661A5F0245047A900331E3D /* SelfClosureMemoryLeak */ = {
 			isa = PBXGroup;
 			children = (
-				9661A5F1245047A900331E3D /* AppDelegate.swift */,
-				9661A5F3245047A900331E3D /* SceneDelegate.swift */,
+				9661A621245047C300331E3D /* App */,
 				9661A5F5245047A900331E3D /* ViewController.swift */,
+				9661A6222450495500331E3D /* SecondViewController.swift */,
 				9661A5F7245047A900331E3D /* Main.storyboard */,
 				9661A5FA245047AD00331E3D /* Assets.xcassets */,
 				9661A5FC245047AD00331E3D /* LaunchScreen.storyboard */,
@@ -126,6 +128,15 @@
 				9661A615245047AD00331E3D /* Info.plist */,
 			);
 			path = SelfClosureMemoryLeakUITests;
+			sourceTree = "<group>";
+		};
+		9661A621245047C300331E3D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9661A5F1245047A900331E3D /* AppDelegate.swift */,
+				9661A5F3245047A900331E3D /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9661A6232450495500331E3D /* SecondViewController.swift in Sources */,
 				9661A5F6245047A900331E3D /* ViewController.swift in Sources */,
 				9661A5F2245047A900331E3D /* AppDelegate.swift in Sources */,
 				9661A5F4245047A900331E3D /* SceneDelegate.swift in Sources */,
